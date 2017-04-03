@@ -1,0 +1,264 @@
+/*font-family: 'Grand Hotel', cursive;
+font-family: 'Nunito Sans', sans-serif;*/
+html {
+  overflow-x:hidden;
+}
+header{
+  width:90%;
+  margin:0 auto;
+  height:145px;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-bottom-style:solid;
+}
+h1 {
+  font-family: 'Grand Hotel', cursive;
+  float:left;
+  font-size:40px;
+  margin: 50px auto 0 auto;
+}
+.fa-diamond{
+  color: #f481a0;
+  font-size:30px !important;
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+  position:relative;
+}
+nav ul li {
+  margin: 68px 0 auto auto;
+  display:inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 75px 20px;
+  font-size:20px;
+  font-family:'Nunito Sans', sans-serif;
+  color:black;
+}
+main{
+  width:100%;
+  margin: 0;
+  overflow-x:hidden;
+}
+.crop{
+  overflow:hidden;
+  height:350px;
+  border-radius: 20px;
+  width:90%;
+  height:auto;
+  position: relative;
+  display:block;
+  margin: 0 auto;
+}
+ img {
+   width:100%;
+   height:365px;
+ }
+ .title {
+   text-align: center;
+   font-family:'Nunito Sans', sans-serif;
+   margin: 60px auto;
+ }
+ h2 {
+   font-size:30px;
+ }
+ span{
+   color:#f481a0;
+ }
+ .titleInfo {
+   font-size:22px;
+ }
+ .info {
+   width:39%;
+   display:inline-block;
+   padding:0 5%;
+ }
+ h3 {
+   text-align:center;
+   font-family: 'Grand Hotel', cursive;
+   font-size:35px;
+   margin-top: 50px;
+   color:#f481a0;
+ }
+ .descriptions {
+   font-family: 'Nunito Sans', sans-serif;
+ }
+.gallery {
+  position:relative;
+  width: 90%;
+  margin: 40px auto auto;
+  text-align: center;
+}
+.picture {
+  display:inline-block;
+  width:225px;
+  height:225px;
+  background-image: url('../img/sunset.jpg');
+  border-radius: 20px;
+  margin: 20px;
+  text-align: left;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.3);
+  overflow:hidden;
+}
+.caption{
+  display:block;
+  position:relative;
+  top:110px;
+  padding: 40px 20px 20px 20px;
+  background-color:white;
+  background-size:50px 225px;
+  overflow:hidden;
+  font-size:15px;
+  font-family: 'Nunito Sans', sans-serif;
+  color:#f481a0;
+}
+h4 {
+  display:block;
+  position:relative;
+  margin:0;
+  top: 165px;
+  left: 20px;
+  z-index: 1;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 23px;
+}
+footer {
+  position:relative;
+  width:110%;
+  margin: auto 0 0 0;
+  background-color: #2d2d2d;
+  left:-10px;
+}
+h3.contact {
+  text-align:left;
+  display:block;
+  margin: 50px auto auto 5%;
+  padding: 60px 0 0 0;
+}
+input {
+  display:block;
+  margin: 20px auto auto 5%;
+  width: 600px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #d8d8d8;
+  outline:none;
+  border:none;
+  border-radius:3px;
+}
+.formTop{
+  height: 30px;
+}
+.formBottom{
+  height:120px;
+}
+button {
+  margin: 10px auto auto 5%;
+  background: none;
+  padding: 20px 0 20px 0;
+  border:none;
+  outline:none;
+  font-family: 'Nunito Sans', sans-serif;
+  color:white;
+  font-size:18px;
+}
+input[type="text"] {
+  padding: 0 0 0 5px;
+  font-size:15px;
+  color:#d8d8d8;
+}
+.follow .fa{
+  display: inline-block;
+  text-align:center;
+  padding-top: 5px;
+  font-size:20px;
+  margin: 15px;
+  color:#2d2d2d;
+  background-color:#f481a0;
+  width: 30px;
+  height: 25px;
+  border-radius: 100px;
+}
+
+.follow {
+  display:block;
+  position:absolute;
+  z-index:1;
+  bottom:150px;
+  right:150px;
+}
+/*media queries*/
+@media (max-width:1000px) {
+  .follow .fa {
+    display:inline-block;
+    position:relative;
+    bottom:0;
+    right:0;
+    margin-top:0;
+  }
+  .follow {
+    display:block;
+    position:relative;
+    left:5%;
+    bottom:0;
+    margin-top:0;
+    text-align:center;
+  }
+  input{
+    width:70%;
+  }
+}
+@media (max-width:860px) {
+  .info {
+    display: block;
+    position:relative;
+    width:70%;
+    margin: 0 auto;
+  }
+}
+@media (max-width:727px) {
+  nav ul{
+    display:inline-block;
+    text-align:center;
+    margin-top:0;
+    padding-top:0;
+  }
+  nav ul li {
+    margin-top:20px;
+  }
+  h1 {
+    width:100%;
+    display:block;
+    margin-top:50px;
+    text-align:center;
+  }
+  header{
+    width:90%;
+    margin:0 auto;
+    height:auto;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    border-bottom-style:solid;
+  }
+}
+@media (max-width:330px) {
+  nav ul li {
+    display:block;
+  }
+  nav ul {
+    display:block;
+    text-align:center;
+    width:100%;
+    padding:0;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:1290px) {
+  img {
+    width:auto;
+    height:365px;
+  }
+}
